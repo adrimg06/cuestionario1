@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>¿Cuál es el componente principal que actúa como el cerebro del ordenador?</wording>
+    <choices>
+      <choice correct="no">SSD</choice>
+      <choice correct="yes">CPU</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">GPU</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Qué componente se utiliza para almacenar datos permanentemente?</wording>
+    <choices>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">CPU</choice>
+      <choice correct="yes">Disco duro / SSD</choice>
+      <choice correct="no">Placa base</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Qué significa GPU?</wording>
+    <choices>
+      <choice correct="no">Unidad de memoria gráfica</choice>
+      <choice correct="no">Unidad de potencia general</choice>
+      <choice correct="yes">Unidad de procesamiento gráfico</choice>
+      <choice correct="no">Controlador gráfico universal</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Cuál de los siguientes es un tipo de memoria volátil?</wording>
+    <choices>
+      <choice correct="yes">RAM</choice>
+      <choice correct="no">SSD</choice>
+      <choice correct="no">HDD</choice>
+      <choice correct="no">ROM</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Qué componente se encarga de alimentar a todos los demás?</wording>
+    <choices>
+      <choice correct="no">Disco duro</choice>
+      <choice correct="yes">Fuente de alimentación (PSU)</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">CPU</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Qué es la placa base?</wording>
+    <choices>
+      <choice correct="no">Un componente de red</choice>
+      <choice correct="yes">La tarjeta que conecta todos los componentes</choice>
+      <choice correct="no">Una carcasa externa</choice>
+      <choice correct="no">Un tipo de memoria</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Qué componente es esencial para jugar con buenos gráficos?</wording>
+    <choices>
+      <choice correct="no">Disipador</choice>
+      <choice correct="no">Placa base</choice>
+      <choice correct="no">Fuente de alimentación</choice>
+      <choice correct="yes">Tarjeta gráfica</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Cuál es la función del ventilador o disipador?</wording>
+    <choices>
+      <choice correct="yes">Refrigerar los componentes</choice>
+      <choice correct="no">Aumentar la velocidad</choice>
+      <choice correct="no">Reducir el ruido</choice>
+      <choice correct="no">Mejorar la conectividad</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Qué es un SSD?</wording>
+    <choices>
+      <choice correct="no">Disco externo</choice>
+      <choice correct="yes">Unidad de estado sólido</choice>
+      <choice correct="no">Software de sistema digital</choice>
+      <choice correct="no">Sensor de sonido dinámico</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Qué tipo de puerto se utiliza comúnmente para conectar monitores?</wording>
+    <choices>
+      <choice correct="no">SATA</choice>
+      <choice correct="no">USB</choice>
+      <choice correct="yes">HDMI</choice>
+      <choice correct="no">Ethernet</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Cuál es la principal función de la RAM?</wording>
+    <choices>
+      <choice correct="yes">Almacenar datos temporales mientras se ejecutan programas</choice>
+      <choice correct="no">Guardar archivos de forma permanente</choice>
+      <choice correct="no">Controlar la red</choice>
+      <choice correct="no">Encender el sistema</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Qué componente suele tener la BIOS?</wording>
+    <choices>
+      <choice correct="no">CPU</choice>
+      <choice correct="no">GPU</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="yes">Placa base</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Qué componente convierte la corriente alterna en continua?</wording>
+    <choices>
+      <choice correct="yes">Fuente de alimentación</choice>
+      <choice correct="no">Placa base</choice>
+      <choice correct="no">Tarjeta gráfica</choice>
+      <choice correct="no">RAM</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Qué tipo de memoria almacena el sistema operativo mientras está en uso?</wording>
+    <choices>
+      <choice correct="yes">RAM</choice>
+      <choice correct="no">ROM</choice>
+      <choice correct="no">BIOS</choice>
+      <choice correct="no">HDD</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Cuál de estos no es un periférico de entrada?</wording>
+    <choices>
+      <choice correct="no">Micrófono</choice>
+      <choice correct="no">Ratón</choice>
+      <choice correct="no">Teclado</choice>
+      <choice correct="yes">Monitor</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Qué conector de datos se utiliza para discos duros actuales?</wording>
+    <choices>
+      <choice correct="no">VGA</choice>
+      <choice correct="yes">SATA</choice>
+      <choice correct="no">PCIe</choice>
+      <choice correct="no">HDMI</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Qué función tiene un puerto USB?</wording>
+    <choices>
+      <choice correct="no">Almacenar información</choice>
+      <choice correct="yes">Transferir datos y energía a periféricos</choice>
+      <choice correct="no">Conectar pantalla externa</choice>
+      <choice correct="no">Refrigerar el sistema</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Qué es un overclock?</wording>
+    <choices>
+      <choice correct="no">Apagar el PC más rápido</choice>
+      <choice correct="no">Instalar software automáticamente</choice>
+      <choice correct="yes">Aumentar la velocidad de un componente más allá de su especificación</choice>
+      <choice correct="no">Disminuir el rendimiento para ahorrar energía</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Cuál de estos no es un tipo de puerto de video?</wording>
+    <choices>
+      <choice correct="no">HDMI</choice>
+      <choice correct="yes">RJ45</choice>
+      <choice correct="no">VGA</choice>
+      <choice correct="no">DisplayPort</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Qué tipo de componente es un "cooler"?</wording>
+    <choices>
+      <choice correct="no">Placa base</choice>
+      <choice correct="no">Unidad de almacenamiento</choice>
+      <choice correct="yes">Sistema de refrigeración</choice>
+      <choice correct="no">Procesador</choice>
+    </choices>
+  </question>
+</test>
+

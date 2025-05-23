@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #idioma {
+    margin-top: 15px;
+  }
+  
+  #idioma button {
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  #idioma button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #tiempo {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  #pregunta {
+    font-size: 1.5rem;
+    margin: 30px auto 20px auto;
+    max-width: 1000px;
+    padding: 10px;
+  }
+  
+  #respuestas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #respuestas button {
+    background-color: #ffffff;
+    border: 2px solid #2196F3;
+    color: #2196F3;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 60%;
+  }
+  
+  #respuestas button:hover {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .correcto {
+    background-color: #a5d6a7 !important;
+    border-color: #388e3c !important;
+    color: #1b5e20 !important;
+  }
+  
+  .incorrecto {
+    background-color: #ef9a9a !important;
+    border-color: #d32f2f !important;
+    color: #b71c1c !important;
+  }
+  
+  button[onclick="siguientePregunta()"] {
+    background-color: #FFC107;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+  }
+  
+  button[onclick="siguientePregunta()"]:hover {
+    background-color: #ffb300;
+  }
+  
+  #resultado {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #444;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("fondo.jpg"); /* o "img/fondo.jpg" si está en una subcarpeta */
+    background-size: cover; /* ajusta la imagen al tamaño de la ventana */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* para mejor contraste si la imagen es oscura */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
