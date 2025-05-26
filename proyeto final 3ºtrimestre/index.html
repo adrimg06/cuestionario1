@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuestionario hardware</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 id="titulo">Cuestionario hardware</h1>
+
+  <div id="idioma">
+    <button onclick="cambiarIdioma('es')">Español</button>
+    <button onclick="cambiarIdioma('en')">English</button>
+  </div>
+
+  <div id="tiempo">Tiempo: <span id="reloj">0</span> segundos</div>
+
+  <div id="pregunta"></div>
+  <div id="respuestas"></div>
+
+  <button onclick="siguientePregunta()">Siguiente</button>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

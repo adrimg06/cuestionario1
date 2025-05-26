@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>What is the main component that acts as the brain of the computer?</wording>
+    <choices>
+      <choice correct="no">SSD</choice>
+      <choice correct="yes">CPU</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">GPU</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>Which component is used to permanently store data?</wording>
+    <choices>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">CPU</choice>
+      <choice correct="yes">Hard Drive / SSD</choice>
+      <choice correct="no">Motherboard</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>What does GPU stand for?</wording>
+    <choices>
+      <choice correct="no">Graphics Memory Unit</choice>
+      <choice correct="no">General Power Unit</choice>
+      <choice correct="yes">Graphics Processing Unit</choice>
+      <choice correct="no">Universal Graphics Controller</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Which of the following is a type of volatile memory?</wording>
+    <choices>
+      <choice correct="yes">RAM</choice>
+      <choice correct="no">SSD</choice>
+      <choice correct="no">HDD</choice>
+      <choice correct="no">ROM</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>Which component powers all the others?</wording>
+    <choices>
+      <choice correct="no">Hard Drive</choice>
+      <choice correct="yes">Power Supply Unit (PSU)</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="no">CPU</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>What is the motherboard?</wording>
+    <choices>
+      <choice correct="no">A network component</choice>
+      <choice correct="yes">The board that connects all components</choice>
+      <choice correct="no">An external case</choice>
+      <choice correct="no">A type of memory</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>Which component is essential for gaming with high-quality graphics?</wording>
+    <choices>
+      <choice correct="no">Cooler</choice>
+      <choice correct="no">Motherboard</choice>
+      <choice correct="no">Power Supply</choice>
+      <choice correct="yes">Graphics Card</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>What is the purpose of the fan or cooler?</wording>
+    <choices>
+      <choice correct="yes">To cool down components</choice>
+      <choice correct="no">Increase speed</choice>
+      <choice correct="no">Reduce noise</choice>
+      <choice correct="no">Improve connectivity</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>What is an SSD?</wording>
+    <choices>
+      <choice correct="no">External drive</choice>
+      <choice correct="yes">Solid State Drive</choice>
+      <choice correct="no">System Digital Software</choice>
+      <choice correct="no">Dynamic Sound Sensor</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Which type of port is commonly used to connect monitors?</wording>
+    <choices>
+      <choice correct="no">SATA</choice>
+      <choice correct="no">USB</choice>
+      <choice correct="yes">HDMI</choice>
+      <choice correct="no">Ethernet</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>What is the main function of RAM?</wording>
+    <choices>
+      <choice correct="yes">Temporarily store data while programs run</choice>
+      <choice correct="no">Permanently store files</choice>
+      <choice correct="no">Control the network</choice>
+      <choice correct="no">Turn on the system</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>Which component usually contains the BIOS?</wording>
+    <choices>
+      <choice correct="no">CPU</choice>
+      <choice correct="no">GPU</choice>
+      <choice correct="no">RAM</choice>
+      <choice correct="yes">Motherboard</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>Which component converts AC power to DC?</wording>
+    <choices>
+      <choice correct="yes">Power Supply</choice>
+      <choice correct="no">Motherboard</choice>
+      <choice correct="no">Graphics Card</choice>
+      <choice correct="no">RAM</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>Which type of memory stores the operating system while it runs?</wording>
+    <choices>
+      <choice correct="yes">RAM</choice>
+      <choice correct="no">ROM</choice>
+      <choice correct="no">BIOS</
